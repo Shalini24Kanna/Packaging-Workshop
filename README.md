@@ -7,19 +7,19 @@ VSD - Packaging Workshop
 
 ### Introduction To Semiconductor Packaging And Industry Overview
 
-*Semiconductor Packaging: Purpose and Importance*
+**Semiconductor Packaging: Purpose and Importance**
 
 Semiconductor packaging plays a pivotal role in transitioning fragile silicon dies—fresh out of controlled foundries like TSMC or Intel—into robust components capable of surviving real-world environments.
 
 
-*Packaging ensures:*
+**Packaging ensures:**
 
-•	*Environmental Protection:* Shields dies from corrosion, moisture, and mechanical damage.
+•	**Environmental Protection:** Shields dies from corrosion, moisture, and mechanical damage.
 
-•	*Electrical Connectivity:* Enables integration into electronic systems via structures like Ball Grid Arrays (BGA). For instance, the iPhone 15’s logic board houses chips from Broadcom, SK Hynix, and Texas Instruments—all packaged for durability and compatibility.
+•	**Electrical Connectivity:** Enables integration into electronic systems via structures like Ball Grid Arrays (BGA). For instance, the iPhone 15’s logic board houses chips from Broadcom, SK Hynix, and Texas Instruments—all packaged for durability and compatibility.
 
 
-*Core Components of a Semiconductor Package*
+**Core Components of a Semiconductor Package**
 
 •	Molding Compound:
 
