@@ -619,11 +619,11 @@ Here, the transition of thermal flow on the package from Substrate to Die and pi
 
 -	Targets the infant mortality phase of the device’s life curve:
 
- 	       -	Initial phase: High failure rate due to latent defects
- 	
-         -	Stable period (Useful Life): Minimal failure under normal use
- 	
-         -	Wear-out phase: Gradual failure from prolonged use
+ 	-	Initial phase: High failure rate due to latent defects
+
+ 	-	Stable period (Useful Life): Minimal failure under normal use
+
+ 	-	Wear-out phase: Gradual failure from prolonged use
 
 -	Burn-in compresses the high-risk early phase, ensuring only robust units move forward.
 
