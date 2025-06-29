@@ -372,7 +372,7 @@ Instal ANSYS Electronics Desktop software. Then open Ansys EDT tool.
 If you cannot see all design file types. Go to 
 
        
-       - Tools -> Options -> General Options -> Desktop Configuration ->  ‘Set target configuration’ as ALL 
+        Tools -> Options -> General Options -> Desktop Configuration ->  ‘Set target configuration’ as ALL 
 
 
  ![image](https://github.com/user-attachments/assets/2c9f89e1-2a7c-4efc-8f31-12e046e01fd9)
