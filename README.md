@@ -396,16 +396,16 @@ Here, the transition of thermal flow on the package from Substrate to Die and pi
 
 ## LAB2: Package Design and Modeling: Building a Semiconductor Package from Scratch 
 
+
+### Introduction to Package Cross-Section Modeling in ANSYS Electronics Desktop (AEDT)
+
+
 The process to make a Package Design:
  
 ![image](https://github.com/user-attachments/assets/c1111e5b-cee6-439c-b402-71dcb83c4d56)
 
 
 In previous lab, a Thermal performance and electrical analysis is seen. Here in this lab, a Package cross- section is performed.
-
-
-
-### Introduction to Package Cross-Section Modeling in ANSYS Electronics Desktop (AEDT)
 
 
 ### Creating the Die and Substrate in AEDT
