@@ -412,18 +412,226 @@ In previous lab, a Thermal performance and electrical analysis is seen. Here in 
 ### Creating the Die and Substrate in AEDT
 
 
+Open Ansys EDT tool and Insert an Q3D Extractor Design from the tools.
+
+![image](https://github.com/user-attachments/assets/576cb400-a7e5-46c3-892b-d1a20a3f5f5d)
+
+ 
+
+The first step is to create a *Die*
+To create a Die, go to draw and select ‘Rectangle’. Make a rectangle / square shape from the origin. Here, a *3mm x 3mm* Die is being created.
+
+
+ ![image](https://github.com/user-attachments/assets/9a31c418-6a0f-4d3f-8672-fbdab65c659f)
+
+
+To verify the Die is on 3mm x3mm, click on ‘create rectangle’ -> right click on Properties.
+
+
+ ![image](https://github.com/user-attachments/assets/f8a8340b-ce8c-415e-94b3-ffd2d4a51a16)
+
+
+
+In properties, Origin, X-Size, y-Size can be edited according to the preferences. 
+
+As of now, the Die is on 2D design and to have a 3D design, Thickness needs to be added.
+
+
+![image](https://github.com/user-attachments/assets/10319b32-7957-4d2e-87e9-7e64d52576a6)
+
+
+ 
+
+Select the rectangle, then go to Modeler -> Surface -> Thicken Sheet select. 
+Here a thickness of 0.2mm was given to the Die.
+
+
+ ![image](https://github.com/user-attachments/assets/f0f6ee5c-6d67-4722-a070-d16f02e52a17)
+
+
+
+Now, the Rectangle is re-named as Die for easy understanding. Also, the *Die* material is selected as *Silicon*
+ 
+
+![image](https://github.com/user-attachments/assets/bba56131-0118-4910-a565-6fbf1f23a048)
+
+
+
+By following the same steps, a *Substrate* of *5mmx5mm*is created  with origin (-1,-1,0)
+
+
+ ![image](https://github.com/user-attachments/assets/7cb9b4ff-dce4-4464-b360-a8d77dda03f2)
+
+
+
+Material of Substrate used here is *FR4_epoxy*
+
+
+![image](https://github.com/user-attachments/assets/18ea2dfb-3e27-4629-b409-e6fad1e362d4)
+
+ 
+
+Now, Thickness is added to the substrate (0.5mm)
+ 
+
+![image](https://github.com/user-attachments/assets/2417aab9-0a3d-44cb-957b-da1392445ec6)
+
+
+
+As, it can be seen that Die gets hidden inside the substrate, the thickness of Substrate is changes to negative axis
+ 
+
+![image](https://github.com/user-attachments/assets/4f04e6d5-9e68-40c8-88b5-23895526df86)
+
+
+
+Now, both Substrate and Die can be seen in 3D.
+ 
+
+![image](https://github.com/user-attachments/assets/533f1cc5-9ec7-439e-9d85-4d61b7dddbf8)
+
+
+
+As Die is not going to sit directly on the substrate, an epoxy is added between a Die and a Substrate. This was Die and Substrate are attached trough the *Die Attach* film / material added.  
+
 
 ### Adding Die Attach Material and Bond Pads
+
+As *Die Attach* is to be added between *Substrate* and *Die*, *Substrate* origin is moved to (-1, -1, -0.1) from (-1, -1, 0)
+
+Now, there is space created between *Substrate* and *Die*
+
+
+![image](https://github.com/user-attachments/assets/3013ae54-19b3-4a77-8647-559e5b4fa6b0)
+
+ 
+
+Another rectangle is created from the origin (0,0,0) for *Die Attach* with the size same as die *3mmx3mm*
+
+
+![image](https://github.com/user-attachments/assets/e356141b-f6bf-4279-83c9-0fc21e8042ff)
+
+ 
+
+Placing it at the Origin (0,0,0)
+
+
+ ![image](https://github.com/user-attachments/assets/307111a7-77b9-4f67-988c-30135cc49875)
+
+
+
+The *Die Attach* thickness is added as *0.1mm* but in negative axis to fit it between Die and Substrate.
+
+
+![image](https://github.com/user-attachments/assets/4de968f8-d781-4db5-b574-d4d1774d2106)
+
+ 
+
+The Die Attach material is selected as *modified_epoxy*
+ 
+
+![image](https://github.com/user-attachments/assets/6e4b080a-8377-4b44-a3cd-561a4068a26b)
+
+
+
+Optional: Just to understand or to see the 3 Solids – Die, Die Attach, Substrate – Changing the colors of them. 
+
+
+![image](https://github.com/user-attachments/assets/ab97c8fd-aa10-482f-b6b3-6aa3994918c0)
+
+ 
+
+The next step here is to add Bond pads on Substrate and Die then attach those bond pads with a wire bond. 
+
+To create a BondPad on Die, select a rectangle and draw a small rectangle on corner of the die.  Edit the Position of the *DieBondPad* as Origin (0.2, 0.2, 0.2) to keep the BondPad on top of the Die, with X-Size 0.2mm and Y-Size 0.2mm. 
+
+The Bond Pad on the Die is a 2D material, a *0.005mm* of Thickness is added to it.
+
+
+![image](https://github.com/user-attachments/assets/fa045f9b-e8da-4310-8b33-700f1e7699c6)
+
+ 
+
+Same process is followed to create a *SubstrateBondPad* with the properties of X-Size 0.2mm and Y-Size 0.2mm. Origin on the SubstrateBondPad is (0.2, -0.8, -0.1)
+
+Thickness of it is made as 0.010 mm
+
+ 
+![image](https://github.com/user-attachments/assets/7cd7c99c-f8e1-450c-ace3-888beaa9bf9f)
 
 
 
 ### Wire Bond Creation and Material Assignment
 
+To create a Wire Bond between *DieBondPad* and *SubstrateBondPad*, Select a wire bond option, Place it at the center of DieBondPad and then at the center of SubstrateBondPad. 
+
+A BondWire properties tab opens up, there are different types to connect both bond pads, also the height can be edited as per the requirements. 
+Here, the default measurements are taken with *JEDEC 4-Point* wire bond type, when clicked on OK, a wire bond is created. 
+
+
+![image](https://github.com/user-attachments/assets/6fb8999b-0d7c-415d-9ae5-bb877cfa09aa)
+
+ 
+
+The Wire should be able to bend, so we make the bond wire material as *Gold*
+
+Same steps are followed to create a bond pads on over all Die and Substrate
+
+ 
+![image](https://github.com/user-attachments/assets/1c6cdf1d-41b3-4c86-9020-b82bdb268961)
 
 
 
 ### Applying Mold Compound and Finalizing the Package Mode
+Mold compound is going to be placed on the substrate covering the whole design. 
 
+To understand the amount of thickness needed for the mold compound, Packaging thickness is calculated, here Substrate is 0.5mm, Die Attache is 0.1mm and Die is 0.2mm which comes to 0.8mm thickness, but here when observed the wire bonds in 3D, it can be seen that they are going above the Die so from H1 H2 values, approx. of  0.4mm of wire bond height is taken. 
+The total Thickness comes to 1.2mm and the thickness about the substrate is 0.7mm. 
+
+To create a mold compound, create a rectangle and place on the substrate to cover the whole substrate, which will be 5mm x 5mm. 
+
+Properties of the mold will be Origin (-1, -1, -0.1) with X-Size 5mm and Y-Size 5mm. 
+ 
+
+
+![image](https://github.com/user-attachments/assets/53136644-fa2f-4be4-8ca7-fbe6e39bc897)
+
+ 
+
+![image](https://github.com/user-attachments/assets/61656d7c-0e7d-4fdf-8e83-63676615d0a9)
+
+
+
+Thickness of *1.2mm* is added to the mold compound and material of it is assigned as epoxy_kevlar_xy 
+
+Here the thickness is added to the mold compound is more the thickness calculated because at the end of packaging a laser etching will be performed which will etch some part of the mold compounds, so to make sure the wire bonds are not effected due to that, more thickness is added.
+ 
+
+ ![image](https://github.com/user-attachments/assets/6b3887e8-064e-4fc6-8f52-1a0ae324a004)
+
+
+
+FINAL Design 
+
+ 
+
+![image](https://github.com/user-attachments/assets/191228b2-a32d-4731-a500-f934886e63d7)
+
+ 
+![image](https://github.com/user-attachments/assets/f99e29f0-7e7a-4d1d-8172-f8acaec3750f)
+
+
+ 
+
+![image](https://github.com/user-attachments/assets/39eb16cd-8130-479f-917c-4cd1df74f319)
+
+ 
+
+ ![image](https://github.com/user-attachments/assets/261eb5c0-ddf9-4738-8861-bd463351ff2e)
+
+
+
+![image](https://github.com/user-attachments/assets/ad04042e-e957-4722-b93d-9f59a38da92a)
 
 
 
