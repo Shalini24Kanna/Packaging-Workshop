@@ -717,7 +717,7 @@ As of now, the Die is on 2D design and to have a 3D design, Thickness needs to b
  
 
 Select the rectangle, then go to Modeler -> Surface -> Thicken Sheet select. 
-Here a thickness of 0.2mm was given to the Die.
+Here a thickness of **0.2mm** was given to the **Die**.
 
 
  ![image](https://github.com/user-attachments/assets/f0f6ee5c-6d67-4722-a070-d16f02e52a17)
@@ -745,7 +745,7 @@ Material of Substrate used here is **FR4_epoxy**
 
  
 
-Now, Thickness is added to the substrate (0.5mm)
+Now, Thickness is added to the **substrate**  **0.5mm**
  
 
 ![image](https://github.com/user-attachments/assets/2417aab9-0a3d-44cb-957b-da1392445ec6)
