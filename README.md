@@ -914,7 +914,7 @@ FINAL Design
  - Also, had an experience to do a cross-section packaging process from the scratch.
 
    
-## 6. Acknowledgements
+## Acknowledgements
  - Tarun Kumar Agarwal, Faculty in Dept. Electrical Engineering, IIT Gandhinagar.
  - Kunal Ghosh, Co-founder (VSD Corp. Pvt. Ltd)
 
