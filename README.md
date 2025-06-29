@@ -334,20 +334,20 @@ Wafer Preparation Process (Cleanroom-based)
  
 1.	Reconstitution:
 
-   o	Known-good dies are placed on a temporary carrier.
+   -	Known-good dies are placed on a temporary carrier.
    
-   o	A mold compound encapsulates them to form a reconstituted wafer.
+   -	A mold compound encapsulates them to form a reconstituted wafer.
    
-   o	The carrier is removed, revealing a planar structure for processing.
+   -	The carrier is removed, revealing a planar structure for processing.
 
 
 2.	Redistribution Layer (RDL) Formation:
 
-   o	Multiple layers of dielectric and metal are added for signal routing.
+   -	Multiple layers of dielectric and metal are added for signal routing.
    
-   o	Vias and interconnects are patterned to redirect the die’s input/output terminals.
+   -	Vias and interconnects are patterned to redirect the die’s input/output terminals.
    
-   o	Solder balls are added atop the RDL.
+   -	Solder balls are added atop the RDL.
 
 3.	Singulation: The wafer is cut into individual packages, each combining die, routing layers, and external connections.
 
