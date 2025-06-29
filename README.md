@@ -635,6 +635,13 @@ FINAL Design
 
 
 
+### Conclusion
+ - From this workshop, I have learn about the process to perform thermal analysis on a package.
+ - Also, had an experience to do a cross-section packaging process from the scratch.
+
+   
+## 6. Acknowledgements
+ - Kunal Ghosh, Co-founder (VSD Corp. Pvt. Ltd)
 
 
 
