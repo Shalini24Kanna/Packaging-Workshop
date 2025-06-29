@@ -280,13 +280,21 @@ Now, Mesh is added to the packaging.
 
 Now when mesh is generated, there is a ‘Mesh Visualization’ tab pops up, here in quality tab parameters like Face alignment, Skewness and Volume can be observed. 
 
-   
+![10d- maesh Volume](https://github.com/user-attachments/assets/9c354959-e62d-4353-9499-d26a29abc05e)
+![10c- maesh skewness](https://github.com/user-attachments/assets/2e381035-172d-452e-becf-04fe2308c887)
+![10b- maesh face alignment](https://github.com/user-attachments/assets/964bbeaa-caaf-4e3c-aebd-26b820f9ca43)
+
 
 
 For doing Analysis, a solution step is added with default settings
  
+![image](https://github.com/user-attachments/assets/a8714544-e04d-48ab-8722-77ff5e6cc7e8)
+
 
 At the top in simulations, click the ‘Validation’
+
+![image](https://github.com/user-attachments/assets/d9c563e9-d105-4311-a8af-2cba3d444a76)
+
  
 Validation only verifies that all checks are there in the design, it will not analyse the design. 
 
@@ -294,38 +302,51 @@ As, there is a warning for Underfill have no mesh region, it is added manually. 
 
 Mesh region adding manually process and its setting are as below:
   
+ ![image](https://github.com/user-attachments/assets/8570a50d-41f5-48d2-9382-3e0f40402d78)
+
+![image](https://github.com/user-attachments/assets/f059afea-513d-4a4c-a76a-5da5a43c18a1)
 
 
 The ‘Validation’ is re-run
  
+![image](https://github.com/user-attachments/assets/9734ad3d-f34d-4d42-b0f4-fe6babb5b02a)
 
 
 ### Viewing Results And Exploring Other Package Types
 
 Now, when ‘Analyze All’ is performed, now errors are seen due to manually added mesh region for Underfill region. 
- 
+
+![image](https://github.com/user-attachments/assets/5913b394-6d9d-44db-b715-929c4cc26703)
+
 
 So, to resolve the errors seen, the newly added mesh region is deleted. Then, Mesh generation process is re-performed to make sure there are no errors with it.
 
+![image](https://github.com/user-attachments/assets/f888be95-e830-4515-a438-ed713c35327c)
  
 
 
 Now, ‘Validation’ and ‘Analyze all’ are performed and observed that errors are resolved.
 
- 
+ ![image](https://github.com/user-attachments/assets/bb7cd5ad-1091-4d84-8e42-2db9485b24a0)
 
-Now, that Analysis is done. Next step is to plot the thermal plots. For that select the whole package, then right click  Plot fields  Temperature  Temperature 
+
+Now, that Analysis is done. Next step is to plot the thermal plots. For that select the whole package, then right click -> Plot fields -> Temperature -> Temperature 
 
 It opens a ‘Field plot’ tab
+
+![image](https://github.com/user-attachments/assets/701a40b8-c439-48e0-9617-b29ff3effd3b)
+
  
 In ‘Surface smoothing’ tab enable the Gaussian.
 
 Now, Thermal plots are generated on the FlicpChip BGA Package
  
- 
+ ![image](https://github.com/user-attachments/assets/8d23848f-bbbb-4be7-8ff1-5d3308b7555f)
+
 
 Here, the transition of thermal flow on the package from Substrate to Die and pins is analyzed.  
 
+![image](https://github.com/user-attachments/assets/d49906e1-0309-4359-86fd-129ba34db0cd)
 
 
 ## Ensuring Package Reliability: Testing and Performance Validation
@@ -335,11 +356,14 @@ Here, the transition of thermal flow on the package from Substrate to Die and pi
 
 
  
+![image](https://github.com/user-attachments/assets/ad645a17-5e8f-4691-b561-ca8b835f964c)
 
 
 
- 
+ ![image](https://github.com/user-attachments/assets/18a4e93d-da7c-4a87-81b9-9631c8dd970a)
 
+
+![image](https://github.com/user-attachments/assets/c97bf4a4-c40e-47d1-ba22-944f17979438)
 
 
 
@@ -350,9 +374,16 @@ Here, the transition of thermal flow on the package from Substrate to Die and pi
 ### Reliability and Performance Testing of Semiconductor Packages
  
 
+![image](https://github.com/user-attachments/assets/725734df-4507-40bd-b63d-274f4eb8c7d8)
+
 
  
+![image](https://github.com/user-attachments/assets/fa7abbf8-520e-4cad-8a67-5156d5341944)
 
+
+
+
+![image](https://github.com/user-attachments/assets/08a45c0c-b631-43c6-a112-bdf6420ace86)
 
 
  
