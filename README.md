@@ -369,7 +369,9 @@ Wafer Preparation Process (Cleanroom-based)
 ### Introduction And Getting Started With ANSYS Electronics Desktop
 
 Instal ANSYS Electronics Desktop software. Then open Ansys EDT tool. 
-If you cannot see all design file types. Go to tools -> Options -> General Options -> Desktop Configuration ->  ‘Set target configuration’ as ALL 
+If you cannot see all design file types. Go to 
+       
+        Tools -> Options -> General Options -> Desktop Configuration ->  ‘Set target configuration’ as ALL 
 
 
  ![image](https://github.com/user-attachments/assets/2c9f89e1-2a7c-4efc-8f31-12e046e01fd9)
@@ -689,8 +691,8 @@ Open Ansys EDT tool and Insert an Q3D Extractor Design from the tools.
 
  
 
-The first step is to create a *Die*
-To create a Die, go to draw and select ‘Rectangle’. Make a rectangle / square shape from the origin. Here, a *3mm x 3mm* Die is being created.
+The first step is to create a **Die**
+To create a Die, go to draw and select ‘Rectangle’. Make a rectangle / square shape from the origin. Here, a **3mm x 3mm** Die is being created.
 
 
  ![image](https://github.com/user-attachments/assets/9a31c418-6a0f-4d3f-8672-fbdab65c659f)
@@ -721,21 +723,21 @@ Here a thickness of 0.2mm was given to the Die.
 
 
 
-Now, the Rectangle is re-named as Die for easy understanding. Also, the *Die* material is selected as *Silicon*
+Now, the Rectangle is re-named as Die for easy understanding. Also, the **Die** material is selected as **Silicon**
  
 
 ![image](https://github.com/user-attachments/assets/bba56131-0118-4910-a565-6fbf1f23a048)
 
 
 
-By following the same steps, a *Substrate* of *5mmx5mm*is created  with origin (-1,-1,0)
+By following the same steps, a **Substrate** of **5mmx5mm** is created  with origin (-1,-1,0)
 
 
  ![image](https://github.com/user-attachments/assets/7cb9b4ff-dce4-4464-b360-a8d77dda03f2)
 
 
 
-Material of Substrate used here is *FR4_epoxy*
+Material of Substrate used here is **FR4_epoxy**
 
 
 ![image](https://github.com/user-attachments/assets/18ea2dfb-3e27-4629-b409-e6fad1e362d4)
@@ -763,21 +765,21 @@ Now, both Substrate and Die can be seen in 3D.
 
 
 
-As Die is not going to sit directly on the substrate, an epoxy is added between a Die and a Substrate. This was Die and Substrate are attached trough the *Die Attach* film / material added.  
+As Die is not going to sit directly on the substrate, an epoxy is added between a Die and a Substrate. This was Die and Substrate are attached trough the **Die Attach** film / material added.  
 
 
 ### Adding Die Attach Material and Bond Pads
 
-As *Die Attach* is to be added between *Substrate* and *Die*, *Substrate* origin is moved to (-1, -1, -0.1) from (-1, -1, 0)
+As **Die Attach** is to be added between **Substrate** and **Die**, **Substrate** origin is moved to (-1, -1, -0.1) from (-1, -1, 0)
 
-Now, there is space created between *Substrate* and *Die*
+Now, there is space created between **Substrate** and **Die**
 
 
 ![image](https://github.com/user-attachments/assets/3013ae54-19b3-4a77-8647-559e5b4fa6b0)
 
  
 
-Another rectangle is created from the origin (0,0,0) for *Die Attach* with the size same as die *3mmx3mm*
+Another rectangle is created from the origin (0,0,0) for **Die Attach** with the size same as die **3mmx3mm**
 
 
 ![image](https://github.com/user-attachments/assets/e356141b-f6bf-4279-83c9-0fc21e8042ff)
@@ -791,14 +793,14 @@ Placing it at the Origin (0,0,0)
 
 
 
-The *Die Attach* thickness is added as *0.1mm* but in negative axis to fit it between Die and Substrate.
+The **Die Attach** thickness is added as **0.1mm** but in negative axis to fit it between Die and Substrate.
 
 
 ![image](https://github.com/user-attachments/assets/4de968f8-d781-4db5-b574-d4d1774d2106)
 
  
 
-The Die Attach material is selected as *modified_epoxy*
+The Die Attach material is selected as **modified_epoxy**
  
 
 ![image](https://github.com/user-attachments/assets/6e4b080a-8377-4b44-a3cd-561a4068a26b)
@@ -814,18 +816,18 @@ Optional: Just to understand or to see the 3 Solids – Die, Die Attach, Substra
 
 The next step here is to add Bond pads on Substrate and Die then attach those bond pads with a wire bond. 
 
-To create a BondPad on Die, select a rectangle and draw a small rectangle on corner of the die.  Edit the Position of the *DieBondPad* as Origin (0.2, 0.2, 0.2) to keep the BondPad on top of the Die, with X-Size 0.2mm and Y-Size 0.2mm. 
+To create a BondPad on Die, select a rectangle and draw a small rectangle on corner of the die.  Edit the Position of the **DieBondPad** as Origin (0.2, 0.2, 0.2) to keep the BondPad on top of the Die, with X-Size 0.2mm and Y-Size 0.2mm. 
 
-The Bond Pad on the Die is a 2D material, a *0.005mm* of Thickness is added to it.
+The Bond Pad on the Die is a 2D material, a **0.005mm** of Thickness is added to it.
 
 
 ![image](https://github.com/user-attachments/assets/fa045f9b-e8da-4310-8b33-700f1e7699c6)
 
  
 
-Same process is followed to create a *SubstrateBondPad* with the properties of X-Size 0.2mm and Y-Size 0.2mm. Origin on the SubstrateBondPad is (0.2, -0.8, -0.1)
+Same process is followed to create a **SubstrateBondPad** with the properties of X-Size 0.2mm and Y-Size 0.2mm. Origin on the SubstrateBondPad is (0.2, -0.8, -0.1)
 
-Thickness of it is made as 0.010 mm
+Thickness of it is made as **0.010 mm**
 
  
 ![image](https://github.com/user-attachments/assets/7cd7c99c-f8e1-450c-ace3-888beaa9bf9f)
@@ -834,17 +836,17 @@ Thickness of it is made as 0.010 mm
 
 ### Wire Bond Creation and Material Assignment
 
-To create a Wire Bond between *DieBondPad* and *SubstrateBondPad*, Select a wire bond option, Place it at the center of DieBondPad and then at the center of SubstrateBondPad. 
+To create a Wire Bond between **DieBondPad** and **SubstrateBondPad**, Select a wire bond option, Place it at the center of DieBondPad and then at the center of SubstrateBondPad. 
 
 A BondWire properties tab opens up, there are different types to connect both bond pads, also the height can be edited as per the requirements. 
-Here, the default measurements are taken with *JEDEC 4-Point* wire bond type, when clicked on OK, a wire bond is created. 
+Here, the default measurements are taken with **JEDEC 4-Point** wire bond type, when clicked on OK, a wire bond is created. 
 
 
 ![image](https://github.com/user-attachments/assets/6fb8999b-0d7c-415d-9ae5-bb877cfa09aa)
 
  
 
-The Wire should be able to bend, so we make the bond wire material as *Gold*
+The Wire should be able to bend, so we make the **bond wire** material as **Gold**
 
 Same steps are followed to create a bond pads on over all Die and Substrate
 
@@ -873,7 +875,7 @@ Properties of the mold will be Origin (-1, -1, -0.1) with X-Size 5mm and Y-Size 
 
 
 
-Thickness of *1.2mm* is added to the mold compound and material of it is assigned as epoxy_kevlar_xy 
+Thickness of **1.2mm** is added to the **mold compound** and material of it is assigned as **epoxy_kevlar_xy** 
 
 Here the thickness is added to the mold compound is more the thickness calculated because at the end of packaging a laser etching will be performed which will etch some part of the mold compounds, so to make sure the wire bonds are not effected due to that, more thickness is added.
  
