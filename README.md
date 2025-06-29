@@ -7,6 +7,40 @@ VSD - Packaging Workshop
 
 ### Introduction To Semiconductor Packaging And Industry Overview
 
+*Semiconductor Packaging: Purpose and Importance*
+
+Semiconductor packaging plays a pivotal role in transitioning fragile silicon dies—fresh out of controlled foundries like TSMC or Intel—into robust components capable of surviving real-world environments.
+
+
+*Packaging ensures:*
+
+•	*Environmental Protection:* Shields dies from corrosion, moisture, and mechanical damage.
+
+•	*Electrical Connectivity:* Enables integration into electronic systems via structures like Ball Grid Arrays (BGA). For instance, the iPhone 15’s logic board houses chips from Broadcom, SK Hynix, and Texas Instruments—all packaged for durability and compatibility.
+
+
+*Core Components of a Semiconductor Package*
+
+•	Molding Compound:
+
+Encapsulates the die and wire bonds in epoxy resin, offering structural protection and resistance to moisture and contaminants.
+
+•	Substrate:
+
+Acts as an intermediary between the die and PCB, housing metal traces and vias for signal routing and mechanical support.
+
+•	Die Attach:
+
+A thermally conductive adhesive or solder that anchors the die to the substrate while enabling heat dissipation.
+
+
+•	Wire Bonds:
+
+Fine wires (gold, copper, or aluminum) that form electrical paths from the die’s bond pads to the substrate.
+
+•	Traces:
+
+Embedded metal lines within the substrate that transmit signals to the package’s external interfaces.
 
 
  
