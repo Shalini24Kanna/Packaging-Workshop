@@ -573,6 +573,25 @@ Here, the transition of thermal flow on the package from Substrate to Die and pi
  ![image](https://github.com/user-attachments/assets/18a4e93d-da7c-4a87-81b9-9631c8dd970a)
 
 
+
+**Assembly Open and Short Test (AOST):**
+
+- Detects open circuits or short connections introduced during assembly.
+
+- 	Ensures basic functional integrity of package I/Os.
+
+-	Performed immediately after lead trimming (leadframe) or singulation (BGA).
+
+-	Accompanied by visual inspection and Product Grade Sorting (PGSRT):
+
+-	Grade 1: Best
+
+- Grade 2 & 3: Acceptable
+
+-	Grade 4: Scrap
+
+
+
 ![image](https://github.com/user-attachments/assets/c97bf4a4-c40e-47d1-ba22-944f17979438)
 
 
@@ -580,15 +599,59 @@ Here, the transition of thermal flow on the package from Substrate to Die and pi
  
 
 
-
 ### Reliability and Performance Testing of Semiconductor Packages
  
+
+**Final Test:**
+
+-	Verifies full package functionality across specified temperature extremes (as per datasheet).
+
+-	Confirms readiness for board-level integration and field deployment.
+
 
 ![image](https://github.com/user-attachments/assets/725734df-4507-40bd-b63d-274f4eb8c7d8)
 
 
+
+**Burn-in Test:**
+
+-	Applies elevated temperature and voltage stresses to expose early-life failures.
+
+-	Targets the infant mortality phase of the device’s life curve:
+
+ 	       -	Initial phase: High failure rate due to latent defects
+ 	
+         -	Stable period (Useful Life): Minimal failure under normal use
+ 	
+         -	Wear-out phase: Gradual failure from prolonged use
+
+-	Burn-in compresses the high-risk early phase, ensuring only robust units move forward.
+
+
+
  
 ![image](https://github.com/user-attachments/assets/fa7abbf8-520e-4cad-8a67-5156d5341944)
+
+
+
+**Automatic Test Equipment (ATE)** administers comprehensive test patterns to the Device Under Test (DUT) and records performance data.
+
+**Types of test routines include:**
+
+-	Parametric Testing: Measures voltages, currents, and other electrical properties against design specs.
+
+-	Functional Testing: Ensures the device operates as intended under simulated usage.
+
+- Speed Binning: Assesses operational speed and classifies units based on timing performance.
+
+**Key Test Metrics:**
+
+-	Yield: Proportion of devices passing all tests
+
+-	Test Time: Duration per unit
+
+-	Coverage: Extent of fault detection across the die and package
+
 
 
 
