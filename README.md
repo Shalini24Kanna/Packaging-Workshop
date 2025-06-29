@@ -641,6 +641,7 @@ FINAL Design
 
    
 ## 6. Acknowledgements
+ - Tarun Kumar Agarwal, Faculty in Dept. Electrical Engineering, IIT Gandhinagar.
  - Kunal Ghosh, Co-founder (VSD Corp. Pvt. Ltd)
 
 
