@@ -348,7 +348,6 @@ Here, the transition of thermal flow on the package from Substrate to Die and pi
 
 ![image](https://github.com/user-attachments/assets/d49906e1-0309-4359-86fd-129ba34db0cd)
 
-In previous lab, a Thermal performance and electrical analysis is seen. Here in this lab, a Package cross- section is performed.
 
 ## Ensuring Package Reliability: Testing and Performance Validation
 
@@ -402,6 +401,7 @@ The process to make a Package Design:
 ![image](https://github.com/user-attachments/assets/c1111e5b-cee6-439c-b402-71dcb83c4d56)
 
 
+In previous lab, a Thermal performance and electrical analysis is seen. Here in this lab, a Package cross- section is performed.
 
 
 
